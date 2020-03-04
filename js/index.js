@@ -12,7 +12,7 @@ elemLoginButton.onclick = function () {
     console.log("Login button cliked!");  //comprobar que el boton sirve
 
 
-    function showMessage(message, isError) { 
+    function showMessage(message, isError) {
         var elemPreviousMessage = document.getElementById(ERROR_MESSAGE_ELEMENT_CLASS);
 
 
